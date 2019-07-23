@@ -45,7 +45,7 @@ public class Demotourslogin {
 	public void details_are_enterred() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 //	    throw new PendingException();
-		
+		System.out.println("running with the demos for the github");
 		driver.findElement(By.xpath("/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[4]/td[2]/div/input")).click();
 		}
 
